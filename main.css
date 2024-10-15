@@ -15,7 +15,7 @@ body {
 .calender {
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(4, 32.5%);
+  grid-template-columns: repeat(4, 23.5%);
   gap: 1rem;
   place-content: center;
   font-family: Calibri;
@@ -63,9 +63,12 @@ td {
 }
 
 .training {
-  font-family: Calibri;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 20px;
 }
-
-.training {
-  font-family: Calibri;
+.last {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
 }

@@ -66,9 +66,15 @@ td {
   border-collapse: collapse;
   width: 50%;
   margin: 20px;
+  font-family: Calibri;
 }
 .last {
   display: flex;
   justify-content: space-between;
   margin: 30px;
+  font-family: Calibri;
+}
+
+.year {
+  color: black;
 }
